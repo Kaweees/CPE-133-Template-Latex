@@ -1,0 +1,65 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{sectsty}
+\usepackage[compact]{titlesec}
+\usepackage[left=0in,right=0in,margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{tabu}
+\usepackage{siunitx}
+\usepackage[labelfont=bf, skip=5pt, font=small]{caption}
+\usepackage{subcaption}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage[style=chem-acs, articletitle=true]{biblatex}
+\addbibresource{references.bib}
+\usepackage{float}
+
+\setlength{\parskip}{1em}
+\setlength{\parindent}{24pt}
+\titlespacing{\section}{0pt}{5pt}{0pt}
+\sectionfont{\fontsize{15}{15}\selectfont}
+
+\begin{document}
+\begin{center}
+  \large{\textbf{Lab Report Name}} \\[10pt]
+  \large{Quarter Year, CPE 133-01} \\[5pt]
+  \large{Miguel Villa Floran} \\[5pt]
+  \large{Partners: First Last, First Last}
+\end{center}
+
+\rule{\textwidth}{0.5pt}
+
+\section*{\makebox[6.45in]{Summary}}
+
+Description of what you built and what it does. A schematic, like the one in Figure 1, would be a good thing to have in here. As would some Boolean equations that describe the circuits function, like we see in \ref{eq:1}.
+
+\begin{equation}
+  Y = \overline{A}B + AB
+\end{equation}
+
+\rule{\textwidth}{0.5pt}
+
+\section*{\makebox[6.45in]{Verification}}
+
+\noindent Use this section to tell me how you tested your circuit. Did you simulate it? What input combinations did 
+you use? How did you test on the FPGA? Why you think the test cases adequately test the circuit.
+about what it is you built.
+
+\rule{\textwidth}{0.5pt}
+
+\section*{\makebox[6.45in]{Answers to Questions}}
+
+\noindent Some lab write-ups will include questions.  Please include the questions themselves and your answers to 
+these questions here.   
+
+\rule{\textwidth}{0.5pt}
+
+\section*{\makebox[6.45in]{Code}}
+
+\noindent You can upload your code with your report on PolyLearn.
+
+\rule{\textwidth}{0.5pt}
+
+\printbibliography[title={\centering References}]
+
+\end{document}
